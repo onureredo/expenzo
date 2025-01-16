@@ -1,0 +1,77 @@
+{
+  "name": "expenzo",
+  "description": "Desktop app for expense tracking",
+  "author": "@onureredo",
+  "private": true,
+  "version": "1.0.0",
+  "main": "electron/main.js",
+  "type": "module",
+  "scripts": {
+    "electron": "electron .",
+    "electron-build": "electron-builder",
+    "electron-start": "npm run build && electron electron/main.js",
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "chart.js": "^4.4.7",
+    "date-fns": "^4.1.0",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.3.0",
+    "react-color": "^2.19.3",
+    "react-datepicker": "^7.6.0",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.5.1",
+    "react-icons": "^5.4.0",
+    "react-loader-spinner": "^6.1.6",
+    "react-router-dom": "^7.1.1",
+    "react-select": "^5.9.0",
+    "react-table": "^7.8.0",
+    "react-tagsinput": "^3.20.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "electron": "^33.3.1",
+    "electron-builder": "^25.1.8",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.5"
+  },
+  "build": {
+    "appId": "com.onureredo.toolbox",
+    "productName": "Expenzo",
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "node_modules/**/*"
+    ],
+    "asarUnpack": [
+      "electron/preload.js",
+      "dist/**/*"
+    ],
+    "win": {
+      "icon": "src/assets/icons/expenzo.ico",
+      "sign": false
+    },
+    "directories": {
+      "output": "release"
+    }
+  }
+}

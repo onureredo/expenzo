@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'barcode';
+  src: url('./assets/fonts/barcode.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'alexandria';
+  src: url('./assets/fonts/alexandria.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'orbitron';
+  src: url('./assets/fonts/orbitron.ttf') format('truetype');
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
