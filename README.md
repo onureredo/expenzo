@@ -17,19 +17,19 @@ Expenzo is a **simple** and **intuitive** expense tracker desktop application bu
 
 ### 🏠 Home
 
-![Home](./screenshots/dashboard.png)
+![Home](https://github.com/onureredo/expenzo/blob/main/src/assets/screenshots/home.png)
 
 ### ➕ Add Expense & 📈 Expense Chart
 
-![Add Expense & Expense Chart](./screenshots/add-expense.png)
+![Add Expense & Expense Chart](https://github.com/onureredo/expenzo/blob/main/src/assets/screenshots/addExpense.png)
 
 ### 📋 Detailed Expense List & 🤖 AI Feedback
 
-![Detailed Expense List](./screenshots/export-csv.png)
+![Detailed Expense List](https://github.com/onureredo/expenzo/blob/main/src/assets/screenshots/detailedList.png)
 
 ### 🧠 AI Feedback Feature
 
-![AI Feedback Feature](./screenshots/export-csv.png)
+![AI Feedback Feature](https://github.com/onureredo/expenzo/blob/main/src/assets/screenshots/AIfeedback.png)
 
 ---
 
