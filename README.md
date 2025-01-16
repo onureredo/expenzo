@@ -33,4 +33,4 @@ Expenzo is a **simple** and **intuitive** expense tracker desktop application bu
 
 ---
 
-> 📥 **For detailed installation instructions**, please visit the [Releases Section](#) below.
+> 📥 **For detailed installation instructions**, please visit the [Releases Section](https://github.com/onureredo/expenzo/releases).
